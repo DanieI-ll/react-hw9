@@ -1,0 +1,26 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.inputField {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.submitButton {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
