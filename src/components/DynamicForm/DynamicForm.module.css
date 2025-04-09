@@ -1,26 +1,59 @@
-.formContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 300px;
-  margin: auto;
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
 }
 
-.inputField {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myForm{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.fields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.textField {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
 }
 
 .error {
-  color: red;
-  font-size: 12px;
-}
-
-.submitButton {
-  padding: 10px;
-  background-color: blue;
-  color: white;
-  border: none;
-  cursor: pointer;
+    color: red;
+    margin-bottom: 5px;
 }
